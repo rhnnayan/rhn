@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+  body::before{
+    background-attachment: fixed;
+  }
+  .navbar-toggler{
+    color: rgba(227, 205, 205, 0.55)!important;
+    border-color: rgba(0,0,0,.1)!important;;
+  }
+  
+  .navbar{
+  padding:2% 5%;
+  background-color: #3a4575;
+  opacity:0.5;
+  }
+  .navbar-collapse li {
+	margin: 0 168px;
+}
+.navbar-collapse li a{
+  color:#3a4575
+}
+.navbar-nav li a.active{
+    border-bottom:none
+  }
+
+    
+}

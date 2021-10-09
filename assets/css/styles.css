@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color:#ddd; 
+}
+a{
+  text-decoration: none;
+ 
+}
+.nav-color{
+  background-color: #e8eff7;
+}
+.pt-160{
+  padding-top:160px
+}
+.pb-80{
+  padding-bottom:80px
+}
+
+                      /* Home area css start */
+.navy_blue{
+  color:#3a4575; 
+}
+.bg_blue{
+  background-color: #3a4575;
+}
+                      /* Home area css end */
+                      
+h1,h2,h3,h4,h5,h6{
+  
+}
+  /*-------header design start-------*/
+
+  .navbar{
+  padding:2% 10%;
+  background-color: #3a4575;
+  
+  
+}
+.nav-link{
+  margin: 10px;
+  }
+  
+.nav-link:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+  border-radius: 5px;
+ transition: .4s;
+}
+  .navbar-nav li a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff !important;
+  }
+  .navbar-nav li a.active{
+    border-bottom:2px solid#fff
+  }
+  .navbar-nav li a:hover{
+    color: #3a4575 !important;
+  }
+                        
+/*-------header design end--------*/
+/* about section start */
+.section-title {
+  
+  margin-bottom: 90px;
+}
+/* .section-title h2 {
+  position: relative;
+  padding-bottom: 17px;
+  }
+  .section-title h2::before {
+	position: absolute;
+	width: 130px;
+	height: 5px;
+	content: "";
+	background-color: #3a4575;
+	top: 100%;
+	left: 50%;
+} */
+/* about section end*/
+
+/* services area start */
+.services-area {
+  margin: 90px 0px;
+}
+/* .services-area h2{
+  position: relative;
+}
+.services-area h2:before {
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 5px;
+  background-color: #3a4575;
+  top: 100%;
+  left: 50%;
+} */
+
+/* services area start */
+
+/* portfolio section  start*/
+/* .portfolio-title h2{
+  position: relative;
+}
+.portfolio-title h2::before{
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 5px;
+  background-color: #3a4575;
+  top: 100%;
+  left: 50%;
+} */
+.portfolio-img img{
+  box-shadow: 10px 10px 8px #202422;
+  
+}
+.portfolio-img :hover img{
+  transform: scale(1.2);
+  transition: all 1.3s ease-in-out;
+}
+/* portfolio section end*/
+/* testimonial section start*/
+/* .testimonial-title h2{
+  position: relative;
+}
+.testimonial-title h2::before{
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 5px;
+  background-color: #3a4575;
+  top: 100%;
+  left: 50%;
+} */
+/* testimonial section end*/
+/* contact section start*/
+/* .contact-title h2 {
+  position: relative;
+  padding-bottom: 17px;
+  }
+  .contact-title h2::before {
+	position: absolute;
+	width: 130px;
+	height: 5px;
+	content: "";
+	background-color: #3a4575;
+	top: 100%;
+	left: 50%;
+} */
+/* contact section end*/
+
+                         
+
+
+
